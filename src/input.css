@@ -11,6 +11,10 @@ hr {
     font-family: viga;
 }
 
+.text--shadow {
+    text-shadow: 1px 1px 15px rgba(151, 229, 248, 0.8);
+}
+
 .font--brand2 {
     font-family: 'Dancing Script';
 }
