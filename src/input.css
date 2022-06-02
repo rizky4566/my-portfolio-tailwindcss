@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* utilites ------------------------------------------------------------ */
+hr {
+    border: 1px solid #0ea5e9;
+}
+
+.nav--brand, .work--title {
+    font-family: viga;
+}
+
+.font--brand2 {
+    font-family: 'Dancing Script';
+}
+
+/* header/nav ---------------------------------------------------------- */
+.nav--fixed {
+    @apply fixed z-[999] bg-slate-100 bg-opacity-70;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.hamburger--line {
+    @apply w-[30px] h-[2px] my-2 block bg-primary;
+}
+
+.hamburger-active > span:nth-child(1) {              /*selector combinator = cari elemen yang kelas nya 'hamburger active' lalu cari di dalamnya persis elemen childnya yang namanya 'span' yg dia merupakan elemen ke-1*/
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}  
+
+ 
