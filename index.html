@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="">
+<html lang="en" class=""> <!--scroll-smooth-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,9 @@
 
 
 </head>
-<body id="home" class="bg-slate-50">
+<body id="home" class="bg-slate-50 dark:bg-dark2">
     <!-- HEADER -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 lg:w-5/6 lg:rounded-2xl lg:top-3 lg:left-[110px]">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 lg:w-5/6 lg:rounded-2xl lg:top-3 lg:left-[110px] dark:bg-dark2 dark:opacity-90">
            <div class="container">
                <div class="flex item-center justify-between relative">
                   <div class="px-4">
@@ -31,35 +31,56 @@
                     </button>
 
                     <!-- navbar -->
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-slate-50 shadow-xl rounded-lg drop-shadow-md max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-slate-50 bg-opacity-90 shadow-xl rounded-lg drop-shadow-md max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:dark:bg-transparent dark:bg-dark2 dark:bg-opacity-90">  
                         <ul class="block lg:flex">
 
                             <li class="group">
-                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary" href="#home">
+                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary dark:text-slate-200" href="#home">
                                     <svg class="-translate-x-2" fill="currentColor" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z"/></svg>
                                     Home
                                 </a>
                             </li>
 
                             <li class="group">
-                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary" href="#about">
+                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary dark:text-slate-200" href="#about">
                                     <svg class="-translate-x-2" fill="currentColor" width="17" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 1024 1024" viewBox="0 0 1024 1024"><path d="M670.1 278.4c0 8.8-.6 17.6-1.7 26.3.5-3.5 1-7.1 1.4-10.6-2.4 17.4-7 34.3-13.7 50.5 1.3-3.2 2.7-6.4 4-9.6-6.7 15.8-15.3 30.6-25.8 44.2 2.1-2.7 4.2-5.4 6.3-8.1-10.4 13.4-22.5 25.5-35.9 35.9 2.7-2.1 5.4-4.2 8.1-6.3-13.6 10.4-28.4 19.1-44.2 25.8 3.2-1.3 6.4-2.7 9.6-4-16.2 6.7-33.1 11.3-50.5 13.7 3.5-.5 7.1-1 10.6-1.4-17.5 2.3-35.1 2.3-52.6 0 3.5.5 7.1 1 10.6 1.4-17.4-2.4-34.3-7-50.5-13.7 3.2 1.3 6.4 2.7 9.6 4-15.8-6.7-30.6-15.3-44.2-25.8 2.7 2.1 5.4 4.2 8.1 6.3-13.4-10.4-25.5-22.5-35.9-35.9 2.1 2.7 4.2 5.4 6.3 8.1-10.4-13.6-19.1-28.4-25.8-44.2 1.3 3.2 2.7 6.4 4 9.6-6.7-16.2-11.3-33.1-13.7-50.5.5 3.5 1 7.1 1.4 10.6-2.3-17.5-2.3-35.1 0-52.6-.5 3.5-1 7.1-1.4 10.6 2.4-17.4 7-34.3 13.7-50.5-1.3 3.2-2.7 6.4-4 9.6 6.7-15.8 15.3-30.6 25.8-44.2-2.1 2.7-4.2 5.4-6.3 8.1 10.4-13.4 22.5-25.5 35.9-35.9-2.7 2.1-5.4 4.2-8.1 6.3 13.6-10.4 28.4-19.1 44.2-25.8-3.2 1.3-6.4 2.7-9.6 4 16.2-6.7 33.1-11.3 50.5-13.7-3.5.5-7.1 1-10.6 1.4 17.5-2.3 35.1-2.3 52.6 0-3.5-.5-7.1-1-10.6-1.4 17.4 2.4 34.3 7 50.5 13.7-3.2-1.3-6.4-2.7-9.6-4 15.8 6.7 30.6 15.3 44.2 25.8-2.7-2.1-5.4-4.2-8.1-6.3 13.4 10.4 25.5 22.5 35.9 35.9-2.1-2.7-4.2-5.4-6.3-8.1 10.4 13.6 19.1 28.4 25.8 44.2-1.3-3.2-2.7-6.4-4-9.6 6.7 16.2 11.3 33.1 13.7 50.5-.5-3.5-1-7.1-1.4-10.6C669.5 260.8 670 269.6 670.1 278.4c.1 20.9 18.3 41 40 40 21.6-1 40.1-17.6 40-40-.2-47.9-14.6-96.9-42.8-135.9-7.6-10.5-15.7-20.8-24.7-30.1-9.1-9.4-19.1-17.5-29.5-25.4-18.9-14.4-40-25-62.4-33.2-90.3-33.1-199.2-3.6-260.3 70.8-8.4 10.2-16.4 20.8-23.2 32.2-6.8 11.3-12.1 23.3-17 35.5-9.2 22.6-13.9 46.6-15.8 70.9-3.7 47.6 8.7 97.3 33.5 138.1 23.9 39.4 60 73.2 102.2 92.3 12.4 5.6 25.1 10.8 38.3 14.5 13.1 3.6 26.4 5.6 39.9 7.2 24.6 2.9 49.7.9 74-4 92.3-18.8 169.6-98.3 183.9-191.6 2.1-13.6 3.7-27.2 3.7-41 .1-20.9-18.5-41-40-40C688.3 239.4 670.1 256 670.1 278.4zM802.8 903.7c-19.6 0-39.2 0-58.8 0-46.7 0-93.3 0-140 0-56.2 0-112.4 0-168.7 0-48.5 0-97 0-145.6 0-22.7 0-45.4.2-68.1 0-2.5 0-5-.2-7.4-.5 3.5.5 7.1 1 10.6 1.4-4-.6-7.8-1.7-11.5-3.2 3.2 1.3 6.4 2.7 9.6 4-4-1.7-7.7-3.9-11.2-6.6 2.7 2.1 5.4 4.2 8.1 6.3-3-2.5-5.8-5.2-8.2-8.2 2.1 2.7 4.2 5.4 6.3 8.1-2.7-3.5-4.8-7.2-6.6-11.2 1.3 3.2 2.7 6.4 4 9.6-1.5-3.7-2.5-7.6-3.2-11.5.5 3.5 1 7.1 1.4 10.6-1.6-12.1-.5-24.9-.5-37.1 0-14.3 0-28.5 0-42.8 0-10.7.6-21.3 2-31.9-.5 3.5-1 7.1-1.4 10.6 2.8-20.5 8.2-40.6 16.3-59.7-1.3 3.2-2.7 6.4-4 9.6 7.8-18.2 17.8-35.3 29.9-51-2.1 2.7-4.2 5.4-6.3 8.1 12.1-15.5 26-29.5 41.6-41.6-2.7 2.1-5.4 4.2-8.1 6.3 15.7-12.1 32.8-22.1 51-29.9-3.2 1.3-6.4 2.7-9.6 4 19.1-8 39.1-13.5 59.7-16.3-3.5.5-7.1 1-10.6 1.4 14.8-1.9 29.5-2 44.4-2 18.3 0 36.6 0 54.9 0 42.7 0 85.4 0 128.1 0 16.5 0 32.9-.1 49.4 2-3.5-.5-7.1-1-10.6-1.4 20.5 2.8 40.6 8.2 59.7 16.3-3.2-1.3-6.4-2.7-9.6-4 18.2 7.8 35.3 17.8 51 29.9-2.7-2.1-5.4-4.2-8.1-6.3 15.5 12.1 29.5 26 41.6 41.6-2.1-2.7-4.2-5.4-6.3-8.1 12.1 15.7 22.1 32.8 29.9 51-1.3-3.2-2.7-6.4-4-9.6 8 19.1 13.5 39.1 16.3 59.7-.5-3.5-1-7.1-1.4-10.6 1.9 15.1 2 30.1 2 45.3 0 16.5 0 33 0 49.5 0 5.7.2 11.4-.5 17 .5-3.5 1-7.1 1.4-10.6-.6 4-1.7 7.8-3.2 11.5 1.3-3.2 2.7-6.4 4-9.6-1.7 4-3.9 7.7-6.6 11.2 2.1-2.7 4.2-5.4 6.3-8.1-2.5 3-5.2 5.8-8.2 8.2 2.7-2.1 5.4-4.2 8.1-6.3-3.5 2.7-7.2 4.8-11.2 6.6 3.2-1.3 6.4-2.7 9.6-4-3.7 1.5-7.6 2.5-11.5 3.2 3.5-.5 7.1-1 10.6-1.4C807.4 903.5 805.1 903.6 802.8 903.7c-10.3.1-20.9 4.4-28.3 11.7-6.9 6.9-12.2 18.3-11.7 28.3 1 21.4 17.6 40.3 40 40 38.9-.6 73.1-26 84.5-63.3 4.5-14.8 3.5-30.7 3.5-45.9 0-34.8 1.1-69.3-4.9-103.8-8.8-50.5-34.2-98-69-135.3-34.8-37.3-81.6-64.7-131.1-76.9-28.4-7-57-8.1-86-8.1-29.8 0-59.5 0-89.3 0-29.4 0-58.7 0-88.1 0-29.7 0-59.2 1.4-88.1 9.1-49.1 13-95.3 40.7-129.4 78.3-34.4 37.9-59.3 85.5-67.4 136.3-5.4 34.1-4.3 68.3-4.3 102.7 0 15.8-.9 32.3 4.8 47.4 7.4 19.4 19.2 34.7 36.5 46.2 13.5 8.9 30.6 13.2 46.6 13.4 7.8.1 15.6 0 23.4 0 20 0 39.9 0 59.9 0 28.4 0 56.7 0 85.1 0 33 0 66 0 99 0 33.9 0 67.7 0 101.6 0 31 0 61.9 0 92.9 0 24.3 0 48.6 0 72.8 0 13.9 0 27.8 0 41.7 0 1.8 0 3.6 0 5.4 0 20.9 0 41-18.4 40-40C841.9 922 825.3 903.7 802.8 903.7z"/></svg>
                                     About
                                 </a>
                             </li>
 
                             <li class="group">
-                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary" href="#work">
+                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary dark:text-slate-200" href="#work">
                                     <svg class="-translate-x-2" fill="currentColor" width="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,6H17V3a1,1,0,0,0-1-1H8A1,1,0,0,0,7,3V6H2A1,1,0,0,0,1,7V21a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V7A1,1,0,0,0,22,6ZM9,4h6V6H9ZM21,9.66A2.34,2.34,0,0,1,18.66,12H16v2h2.66A4.29,4.29,0,0,0,21,13.3V20H3V13.3a4.29,4.29,0,0,0,2.34.7H9v1a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V11a1,1,0,0,0-1-1H10a1,1,0,0,0-1,1v1H5.34A2.34,2.34,0,0,1,3,9.66V8H21ZM11,14V12h2v2Z"/></svg>
                                     Work
                                 </a>
                             </li>
 
                             <li class="group">
-                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary" href="#contact">
+                                <a class="text-base font-semibold text-slate-500 py-2 mx-8 flex group-hover:text-primary dark:text-slate-200" href="#contact">
                                     <svg class="-translate-x-2" fill="currentColor" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M23.45 20.93a3 3 0 0 0-4.25 0l-1.45 1.45a26.14 26.14 0 0 1-4.51-3.62 26.62 26.62 0 0 1-3.62-4.51l1.45-1.45a3 3 0 0 0 0-4.25L8.24 5.73a2.93 2.93 0 0 0-2.11-.88h0A3 3 0 0 0 4 5.73L2.64 7.08A6.37 6.37 0 0 0 1 12.33c.32 3.75 2.78 8.26 6.57 12.06S15.92 30.64 19.67 31a7.87 7.87 0 0 0 .84 0 6.07 6.07 0 0 0 4.41-1.64L26.27 28a3 3 0 0 0 .88-2.13 2.93 2.93 0 0 0-.88-2.11zm1.41 5.66L23.5 27.94a4.57 4.57 0 0 1-3.66 1c-3.25-.28-7.39-2.58-10.81-6S3.31 15.41 3 12.16a4.53 4.53 0 0 1 1-3.66L5.41 7.14a1 1 0 0 1 .71-.29h0a1 1 0 0 1 .71.29L9.66 10a1 1 0 0 1 0 1.41l-2 2a1 1 0 0 0-.16 1.21 27.49 27.49 0 0 0 4.33 5.58 27.49 27.49 0 0 0 5.58 4.33 1 1 0 0 0 1.21-.16l2-2a1 1 0 0 1 1.41 0l2.83 2.83h0a1 1 0 0 1 .29.71A1 1 0 0 1 24.86 26.59zM26.6 5.39A14.92 14.92 0 0 0 16 1a1 1 0 1 0 0 2A13 13 0 0 1 29 16.11a1 1 0 0 0 1 1h0a1 1 0 0 0 1-1A14.91 14.91 0 0 0 26.6 5.39z"/><path d="M20.91,11.11a6,6,0,0,1,1.77,4.31,1,1,0,0,0,1,1h0a1,1,0,0,0,1-1,8,8,0,0,0-8-8.1,1,1,0,1,0,0,2A6,6,0,0,1,20.91,11.11Z"/></svg>
                                     Contact
                                 </a>
+                            </li>
+
+                            <li>
+                                <div class="flex items-center pl-8 mt-3 mr-7">
+                                    <span class="mr-2">
+                                        <svg fill="#fcd272" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+                                    </span>
+
+                                    <input id="dark-toggle" class="hidden" type="checkbox">
+                                    <label for="dark-toggle">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out">
+
+                                            </div>
+                                        </div>
+                                    </label>
+
+                                    <span class="ml-2 drop-shadow-xl">
+                                        <svg fill="#0ea5e9" width="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+                                    </span>
+                                </div>
                             </li>
                         </ul>
                     </nav>
@@ -89,17 +110,17 @@
                 <!-- rightside introducing -->
                 <div class="w-full self-center px-4 lg:w-1/2 lg:pl-20">
                     <h1 class="text-2xl font-semibold text-primary drop-shadow-lg md:text-3xl lg:text-4xl">Hello! 👋</h1>
-                    <h1 class="mt-1 font-bold text-[32px] text-dark drop-shadow-md lg:text-5xl">I'm <span class="text-primary drop-shadow-md">Riz</span>ky <span class="text-primary drop-shadow-md">Kur</span>niawan</h1>
-                    <h2 class="mb-4 font-medium text-slate-700 text-lg lg:text-2xl lg:mt-1">Fresh graduate & Frontend Web Developer</h2>
-                    <p class="mb-4 font-medium text-secondary">Professionalism, responsibility, a spirit of hard work and always <span class="text-dark font-bold">learning!</span></p>
+                    <h1 class="mt-1 font-bold text-[32px] text-dark drop-shadow-md lg:text-5xl dark:text-slate-200">I'm <span class="text-primary drop-shadow-md">Riz</span>ky <span class="text-primary drop-shadow-md">Kur</span>niawan</h1>
+                    <h2 class="mb-4 font-medium text-slate-700 text-lg lg:text-2xl lg:mt-1 dark:text-slate-300">Fresh graduate & Frontend Web Developer</h2>
+                    <p class="mb-4 font-medium text-secondary dark:text-slate-400">Professionalism, responsibility, a spirit of hard work and always <span class="text-dark font-bold dark:text-slate-200">learning!</span></p>
 
                     <!-- my site button -->
                     <button class="translate-y-2">
-                        <a class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full shadow-lg hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="#">Goes to My Site! <span class="">🚀</span></a>
+                        <a class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full shadow-lg hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/page-error404/">Goes to My Site! <span class="">🚀</span></a>
                     </button>
 
                     <!-- connect -->
-                    <h3 class="mt-10 text-slate-700 text-lg font-semibold">Connect with Me</p>
+                    <h3 class="mt-10 text-slate-700 text-lg font-semibold dark:text-slate-300">Connect with Me</p>
                     <div class="flex items-center mt-3">
                         <!-- github icon dari simpleicon.org-->
                         <a class="w-[46px] h-[46px] mr-[9px] rounded-xl flex justify-center items-center text-slate-800 shadow-lg  hover:shadow-slate-500 hover:border-primary bg-[#fcd272] hover:shadow-md hover:scale-105 transition duration-500" href="https://github.com/rizky4566" target="_blank">
@@ -123,7 +144,7 @@
                     </div>
 
                     <!-- contact me -->
-                    <h3 class="text-slate-700 text-lg font-semibold mt-5">Contact Me</p>
+                    <h3 class="text-slate-700 text-lg font-semibold mt-5 dark:text-slate-300">Contact Me</p>
                     <div class="flex items-center">
                         <span>
                             <svg class="pr-[2px] pt-[5px]" fill="#10b981" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg>
@@ -145,8 +166,8 @@
                 <!-- leftside about-->
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mt-6">
                     <h4 class="mb-3 font-bold text-primary text-2xl drop-shadow-lg lg:text-4xl">About</h4>
-                    <p class="font-medium text-secondary text-base">Hello! my name is Rizky Kurniawan, I am a fresh graduate from a private university in south Jakarta, majoring in Information Engineering. I started studying the web programming languages when I graduated and i really interested to building my career in web developer, especially frontend web developer, I started to explore it myself by studying through channels youtube from Web Programming UNPAS taught by Mr. Sandhika Galih he is a good person and awesome lecturer and also I learned it from others video, courses and a bootcamp web frontend developer.</p><br>
-                    <p class="mb-5 font-medium text-secondary text-base">I am interested in technological developments, especially in the frontend or UI and UX design. In this website I will put my creativity and share my projects that I have worked on. For now, the project I am working on is a personal project. I am very happy if I get suggest or input to make myself better and continue to grow.</p>
+                    <p class="font-medium text-secondary text-base dark:text-slate-400">Hello! my name is Rizky Kurniawan, I am a fresh graduate from a private university in south Jakarta, majoring in Information Engineering. I started studying the web programming languages when I graduated and i really interested to building my career in web developer, especially frontend web developer, I started to explore it myself by studying through channels youtube from Web Programming UNPAS taught by Mr. Sandhika Galih he is a good person and awesome lecturer and also I learned it from others video, courses and a bootcamp web frontend developer.</p><br>
+                    <p class="mb-5 font-medium text-secondary text-base dark:text-slate-400">I am interested in technological developments, especially in the frontend or UI and UX design. In this website I will put my creativity and share my projects that I have worked on. For now, the project I am working on is a personal project. I am very honour if I get suggest or information in this website to make myself better and continue to grow.</p>
 
                     <h4 class="mb-2 font-semibold text-sky-400 text-2xl">Skills that i'm familiar :</h4>
                     <hr class="mb-3 lg:w-full">
@@ -219,7 +240,7 @@
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto mb-10">
                     <h4 class="mb-6 font-bold text-primary text-2xl text-center drop-shadow-lg lg:mb-12 lg:text-4xl">My Works</h4>
-                    <h2 class="text-base font-medium text-slate-400 lg:-ml-52">Reminder<span class="text-red-500 text-xl font-bold">!</span> All these project is a personal projects, this projects is still on progress and updates.</h2>
+                    <h2 class="text-base font-medium text-slate-400 lg:-ml-52 dark:text-slate-300">Reminder<span class="text-red-500 text-xl font-bold">!</span> All these project is a personal projects, this projects is still on progress and updates.</h2>
                     >
                 </div>
             </div>
@@ -230,11 +251,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/aboutme.jpg" alt="My Page" width="w-full">
-                        <div class="px-5 py-6 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">My Page</h3>
-                            <p class="mb-4 text-sm font-medium text-slate-500">My personal page, likes yeahh my places</p><br><br>
+                        <div class="px-5 py-6 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">My Page</h3>
+                            <p class="mb-4 text-sm font-medium text-slate-500 dark:text-slate-300">My personal page, likes yeahh my places</p><br><br>
                             <div class="translate-y-1">
-                            <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                            <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/page-error404/">
                                 <button class="relative">
                                     <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                 </button>
@@ -248,11 +269,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/foodproject.jpg" alt="Foody Frenzy" width="w-full">
-                        <div class="px-5 py-4 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">FoodyFrenzy</h3>
-                            <p class="mb-7 text-sm font-medium text-slate-500">Everyone loves food Everyone can cook Makes your favorite dish by your self at home</p>
+                        <div class="px-5 py-4 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">FoodyFrenzy</h3>
+                            <p class="mb-7 text-sm font-medium text-slate-500 dark:text-slate-300">Everyone loves food Everyone can cook Makes your favorite dish by your self at home</p>
                             <div class="-translate-y-1">
-                            <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                            <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/page-error404/">
                                 <button class="relative">
                                     <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                 </button>
@@ -266,11 +287,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/gamesproject.jpg" alt="My Page" width="w-full">
-                        <div class="px-5 py-4 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">X-Play</h3>
-                            <p class="text-sm font-medium text-slate-500">Enjoy your day Enjoy your Journey Having some fun Togethers with friends</p><br><br>
+                        <div class="px-5 py-4 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">X-Play</h3>
+                            <p class="text-sm font-medium text-slate-500 dark:text-slate-300">Enjoy your day Enjoy your Journey Having some fun Togethers with friends</p><br><br>
                             <div class="-translate-y-1">
-                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/page-error404/">
                                     <button class="relative">
                                         <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                     </button>
@@ -284,11 +305,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/webCompanyProject.jpg" alt="My Page" width="w-full">
-                        <div class="px-5 py-4 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">Archiedesign.</h3>
-                            <p class="text-sm font-medium text-slate-500">Makes your dreams come true Your wish is our responsibility.</p><br><br>
+                        <div class="px-5 py-4 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">Archiedesign.</h3>
+                            <p class="text-sm font-medium text-slate-500 dark:text-slate-300">Makes your dreams come true Your wish is our responsibility.</p><br><br>
                             <div class="-translate-y-1">
-                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/company-website-archiedesign/" target="_blank">
                                     <button class="relative">
                                         <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                     </button>
@@ -302,11 +323,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/sportsprojects.jpg" alt="My Page" width="w-full">
-                        <div class="px-5 py-4 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">Sport Center</h3>
-                            <p class="mb-[83px] text-sm font-medium text-slate-500">Sweat as hard as you can and Getting you're Favorite stars news updates</p>
+                        <div class="px-5 py-4 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">Sport Center</h3>
+                            <p class="mb-[83px] text-sm font-medium text-slate-500 dark:text-slate-300">Sweat as hard as you can and Getting you're Favorite stars news updates</p>
                             <div class="-translate-y-1">
-                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/page-error404/">
                                     <button class="relative">
                                         <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                     </button>
@@ -320,11 +341,11 @@
                 <div class="mb-12 p-4 md:w-1/3">
                     <div class="rounded-xl shadow-lg shadow-dark overflow-hidden transition duration-500 hover:scale-105  hover:shadow-primary">
                         <img src="dist/img/project/portfolio-bootstrap.jpg" alt="My Page" width="w-full">
-                        <div class="px-5 py-4 bg-slate-50">
-                            <h3 class="work--title font-medium text-xl mb-2">Portfolio Bootstrap</h3>
-                            <p class="mb-[100px] text-sm font-medium text-slate-500">This website is my first portfolio by using bootstrap</p>
+                        <div class="px-5 py-4 bg-slate-50 dark:bg-dark">
+                            <h3 class="work--title font-medium text-xl mb-2 dark:text-slate-100">Portfolio Bootstrap</h3>
+                            <p class="mb-[100px] text-sm font-medium text-slate-500 dark:text-slate-300">This website is my first portfolio by using bootstrap</p>
                             <div class="-translate-y-1">
-                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="">
+                                <a class="text-base font-medium text-white bg-primary shadow-lg py-2 pl-11 pr-6 rounded-full hover:shadow-emerald-400 hover:bg-sky-600 transition duration-400 ease-in-out" href="https://rizky4566.github.io/rizkykurniawan.github.io/" target="_blank">
                                     <button class="relative">
                                         <svg class="absolute -left-8" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="M17 2C8.716 2 2 8.716 2 17s6.716 15 15 15 15-6.716 15-15S25.284 2 17 2zm10.938 8h-2.98c-.58-1.824-1.376-3.422-2.336-4.704A13.083 13.083 0 0 1 27.938 10zM18 10V4.164c1.89.558 3.732 2.654 4.866 5.836H18zm5.448 2c.282 1.224.464 2.564.522 4H18v-4h5.448zM16 4.164V10h-4.866C12.268 6.818 14.11 4.722 16 4.164zM16 12v4h-5.97c.058-1.436.24-2.776.522-4H16zm-7.97 4H4.05c.108-1.406.43-2.754.952-4h3.52a23.96 23.96 0 0 0-.492 4zm0 2a23.96 23.96 0 0 0 .492 4h-3.52a12.895 12.895 0 0 1-.952-4h3.98zm2 0H16v4h-5.448a21.758 21.758 0 0 1-.522-4zM16 24v5.836c-1.89-.558-3.732-2.654-4.866-5.836H16zm2 5.836V24h4.866c-1.134 3.182-2.976 5.278-4.866 5.836zM18 22v-4h5.97a21.758 21.758 0 0 1-.522 4H18zm7.97-4h3.98a12.895 12.895 0 0 1-.952 4h-3.52a23.96 23.96 0 0 0 .492-4zm0-2a23.96 23.96 0 0 0-.492-4h3.52c.522 1.246.844 2.594.952 4h-3.98zM11.378 5.296C10.42 6.578 9.622 8.176 9.042 10h-2.98a13.083 13.083 0 0 1 5.316-4.704zM6.062 24h2.98c.58 1.824 1.376 3.422 2.336 4.704A13.083 13.083 0 0 1 6.062 24zm16.56 4.704c.958-1.282 1.756-2.88 2.336-4.704h2.98a13.083 13.083 0 0 1-5.316 4.704z"/></svg> Demo
                                     </button>
@@ -349,13 +370,13 @@
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="mb-6 font-bold text-primary text-2xl text-center drop-shadow-lg lg:mb-10 lg:text-4xl">Contact</h4>
-                    <h2 class="text-xl font-medium text-slate-700">You can also give me some text</h2>
-                    <h2 class="mt-2 text-base font-medium text-slate-400">Give me a suggest or critics to develop this website in the future to be advanced.</h2>
+                    <h2 class="text-xl font-medium text-slate-700 dark:text-slate-300">You can also give me some text</h2>
+                    <h3 class="mt-2 text-base font-medium text-slate-400">Give me a suggest or critics to develop this website in the future to be advanced.</h3>
                 </div>
             </div>
             
             <div class="mx-3">
-                <div class="bg-white max-w-xl rounded-xl mx-auto shadow-xl  mb-8 border border-slate-300 p-6">
+                <div class="bg-white max-w-xl rounded-xl mx-auto shadow-xl  mb-8 border border-slate-300 p-6 dark:bg-slate-700 dark:border-slate-700">
                     <!-- duckyduck -->
                     <div class="max-w-xl mb-5 drop-shadow-lg">
                         <img class="mx-auto w-[65px] lg:w-[80px] rounded-full transition duration-500 hover:scale-110" src="dist/img/gif/ducky.gif" alt="">
@@ -449,6 +470,7 @@
     <div class="w-full py-[10px] lg:py-[18px] text-slate-200 font-semibold shadow-lg bg-gradient-to-r from-sky-500 via-teal-600 to-amber-400 text-center">
         <p class="text-sm font-bold drop-shadow-lg">©2022 Made with<span class="text-[14px]">❤</span>by <a class="font-bold text-slate-200 drop-shadow-lg" href="https://www.instagram.com/rizkur_/" target="_blank">Rizky Kurniawan</a></p>
     </div>
+    <!-- COPYRIGHT END -->
 
 <script src="dist/js/script.js"></script>  
 </body>

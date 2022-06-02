@@ -21,13 +21,12 @@ hr {
 
 /* header/nav ---------------------------------------------------------- */
 .nav--fixed {
-    @apply fixed z-[999] bg-slate-100 bg-opacity-70;
-    backdrop-filter: blur(5px);
+    @apply fixed z-[999] bg-slate-100 bg-opacity-70 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
     box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .hamburger--line {
-    @apply w-[30px] h-[2px] my-2 block bg-primary;
+    @apply w-[30px] h-[2px] my-2 block bg-primary dark:bg-slate-50;
 }
 
 .hamburger-active > span:nth-child(1) {              /*selector combinator = cari elemen yang kelas nya 'hamburger active' lalu cari di dalamnya persis elemen childnya yang namanya 'span' yg dia merupakan elemen ke-1*/
@@ -42,4 +41,8 @@ hr {
     @apply -rotate-45;
 }  
 
+/* darkmode */
+#dark-toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-3;
+}
  
